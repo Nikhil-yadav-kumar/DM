@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Security Workshop - Master the Digital Defense</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="logo">
+            <i class="fas fa-shield-alt"></i>
+            <span>CyberShield Workshop</span>
+          </div>
+          <button class="register-btn" onclick="scrollToForm()">
+            <i class="fas fa-user-plus"></i> Register Free
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Master Cyber Security</h1>
+          <p class="hero-subtitle">
+            Learn to protect yourself in the digital world
+          </p>
+          <div class="hero-details">
+            <div class="detail-item">
+              <i class="fas fa-calendar-alt"></i>
+              <div>
+                <span class="detail-label">Date</span>
+                <span class="detail-value">December 15, 2025</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <span class="detail-label">Time</span>
+                <span class="detail-value">10:00 AM - 4:00 PM</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-laptop"></i>
+              <div>
+                <span class="detail-label">Mode</span>
+                <span class="detail-value">Online</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-tag"></i>
+              <div>
+                <span class="detail-label">Fee</span>
+                <span class="detail-value">₹1000 Only</span>
+              </div>
+            </div>
+          </div>
+          <button class="hero-cta" onclick="scrollToForm()">
+            Secure Your Spot Now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Workshop Section -->
+    <section class="about">
+      <div class="container">
+        <h2 class="section-title">About the Workshop</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="intro-text">
+              Welcome to the most comprehensive Cyber Security Workshop designed
+              for beginners and intermediate learners. In today's digital age,
+              cyber threats are evolving rapidly, and protecting your digital
+              assets has never been more critical.
+            </p>
+            <div class="about-features">
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <h3>Hands-on Learning</h3>
+                  <p>
+                    Practical exercises and real-world scenarios to solidify
+                    your understanding
+                  </p>
+                </div>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <h3>Expert Instructors</h3>
+                  <p>
+                    Learn from industry professionals with 10+ years of
+                    experience in cybersecurity
+                  </p>
+                </div>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <h3>Certificate of Completion</h3>
+                  <p>
+                    Receive an official certificate to showcase your new skills
+                  </p>
+                </div>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <h3>Lifetime Access</h3>
+                  <p>
+                    Get lifetime access to workshop recordings and materials
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registration Form -->
+    <section class="registration" id="registration-form">
+      <div class="container">
+        <h2 class="section-title">Register Now</h2>
+        <div class="form-wrapper">
+          <form id="registrationForm" class="registration-form">
+            <div class="form-group">
+              <label for="name"> <i class="fas fa-user"></i> Full Name </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">
+                <i class="fas fa-envelope"></i> Email Address
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">
+                <i class="fas fa-phone"></i> Phone Number
+              </label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="city"> <i class="fas fa-city"></i> City </label>
+              <input
+                type="text"
+                id="city"
+                name="city"
+                placeholder="Enter your city"
+                required
+              />
+            </div>
+            <button type="submit" class="submit-btn">
+              <i class="fas fa-paper-plane"></i> Submit Registration
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison">
+      <div class="container">
+        <h2 class="section-title">Why Choose Our Workshop?</h2>
+        <div class="comparison-table">
+          <div class="comparison-header">
+            <div class="feature-col">Features</div>
+            <div class="other-col">Other Workshops</div>
+            <div class="our-col">Our Workshop</div>
+          </div>
+          <div class="comparison-row">
+            <div class="feature-col">Price</div>
+            <div class="other-col">
+              <i class="fas fa-times"></i> ₹3000 - ₹5000
+            </div>
+            <div class="our-col"><i class="fas fa-check"></i> ₹1000 Only</div>
+          </div>
+          <div class="comparison-row">
+            <div class="feature-col">Live Sessions</div>
+            <div class="other-col">
+              <i class="fas fa-times"></i> Pre-recorded
+            </div>
+            <div class="our-col">
+              <i class="fas fa-check"></i> Live Interactive
+            </div>
+          </div>
+          <div class="comparison-row">
+            <div class="feature-col">Certificate</div>
+            <div class="other-col">
+              <i class="fas fa-times"></i> Additional Cost
+            </div>
+            <div class="our-col">
+              <i class="fas fa-check"></i> Free Certificate
+            </div>
+          </div>
+          <div class="comparison-row">
+            <div class="feature-col">Recording Access</div>
+            <div class="other-col"><i class="fas fa-times"></i> 30 Days</div>
+            <div class="our-col">
+              <i class="fas fa-check"></i> Lifetime Access
+            </div>
+          </div>
+          <div class="comparison-row">
+            <div class="feature-col">Hands-on Practice</div>
+            <div class="other-col"><i class="fas fa-times"></i> Limited</div>
+            <div class="our-col">
+              <i class="fas fa-check"></i> Extensive Labs
+            </div>
+          </div>
+          <div class="comparison-row">
+            <div class="feature-col">Community Support</div>
+            <div class="other-col"><i class="fas fa-times"></i> No Support</div>
+            <div class="our-col">
+              <i class="fas fa-check"></i> Dedicated Discord
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages">
+          <h3>Our Unique Advantages</h3>
+          <div class="advantage-grid">
+            <div class="advantage-card">
+              <i class="fas fa-bolt"></i>
+              <h4>Fast-Track Learning</h4>
+              <p>
+                Condensed curriculum covering essential cybersecurity concepts
+                in just 6 hours
+              </p>
+            </div>
+            <div class="advantage-card">
+              <i class="fas fa-users"></i>
+              <h4>Small Batch Size</h4>
+              <p>
+                Limited to 50 participants for personalized attention and
+                interaction
+              </p>
+            </div>
+            <div class="advantage-card">
+              <i class="fas fa-tools"></i>
+              <h4>Industry Tools</h4>
+              <p>
+                Hands-on experience with professional-grade security tools and
+                software
+              </p>
+            </div>
+            <div class="advantage-card">
+              <i class="fas fa-briefcase"></i>
+              <h4>Career Guidance</h4>
+              <p>Free career counseling session and job referral assistance</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Do I need prior experience in cybersecurity?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              No prior experience is required! This workshop is designed for
+              beginners and intermediate learners. We'll start with the basics
+              and gradually move to more advanced topics.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Will I receive a certificate after completion?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              Yes! All participants who complete the workshop will receive a
+              digital certificate of completion that you can share on LinkedIn
+              and add to your resume.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>What if I miss the live session?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              Don't worry! The workshop will be recorded and you'll have
+              lifetime access to the recording. However, we highly recommend
+              attending live for the interactive experience.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>What software or tools do I need?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              You'll need a computer with internet connection. We'll provide
+              detailed setup instructions via email before the workshop. All
+              tools we use are free and open-source.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Is the fee refundable?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              Yes, we offer a 100% refund if you request cancellation at least
+              48 hours before the workshop. No questions asked!
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Will there be hands-on practice?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              Absolutely! The workshop includes multiple hands-on labs and
+              real-world scenarios. You'll get practical experience with
+              security tools and techniques.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fixed Footer -->
+    <footer class="fixed-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <span class="seats-left">Only 12 Seats Left!</span>
+            <span class="price">₹1000 Only</span>
+          </div>
+          <button class="reserve-btn" onclick="scrollToForm()">
+            <i class="fas fa-lock"></i> Reserve My Seat
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
